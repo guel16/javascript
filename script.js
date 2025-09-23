@@ -29,4 +29,11 @@ console.log (meunome)
     }
     else{
         console.log('Você é menor de idade.');
+
     }
+
+//Interligar com HTML
+document.getElementById("btn").addEventListener("click", () => {
+  console.log("Botão foi clicado!");
+  alert("JS funcionando no clique!");
+});
